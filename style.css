@@ -1,0 +1,12 @@
+body{font-family:system-ui,sans-serif;max-width:1000px;margin:auto;padding:16px;color:#1d2330;background:#f6f7fb}
+h1{margin:0;font-size:2.2em}h1 span{color:#6b4dff}
+#drop{border:3px dashed #6b4dff;border-radius:14px;padding:40px;text-align:center;background:#fff;cursor:pointer}
+#drop.hover{background:#efeaff}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:12px 0}
+.stage{background:repeating-conic-gradient(#ddd 0 25%,#fff 0 50%) 50%/20px 20px;display:inline-block;max-width:100%}
+#view{max-width:100%;max-height:70vh;display:block;cursor:crosshair;touch-action:none}
+#list{display:flex;flex-wrap:wrap;gap:10px}.item{width:150px;background:#fff;border-radius:8px;padding:6px;font-size:12px;cursor:pointer}
+.item img{width:100%;height:110px;object-fit:contain;background:repeating-conic-gradient(#ddd 0 25%,#fff 0 50%) 50%/12px 12px}
+.item.sel{outline:3px solid #6b4dff}
+button,#proLink{background:#6b4dff;color:#fff;border:0;border-radius:8px;padding:9px 14px;font-weight:600;cursor:pointer;text-decoration:none}
+#pro{margin-top:24px;background:#fff;border-radius:12px;padding:14px}footer{margin-top:20px;font-size:13px;color:#667}
