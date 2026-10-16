@@ -1,5 +1,5 @@
 body{font-family:system-ui,sans-serif;max-width:1000px;margin:auto;padding:16px;color:#1d2330;background:#f6f7fb}
-h1{margin:0;font-size:2.2em}h1 span{color:#6b4dff}
+.app-h1{margin:0;font-size:2.2em;font-weight:700}.app-h1 span{color:#6b4dff}
 #drop{border:3px dashed #6b4dff;border-radius:14px;padding:40px;text-align:center;background:#fff;cursor:pointer}
 #drop.hover{background:#efeaff}
 .tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:12px 0}
